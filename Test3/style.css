@@ -667,3 +667,87 @@ body {
   width: 100%;
 }
 /* End Sertification */
+
+/* Footer   */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #212731;
+  padding: 3% 13%;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.item-footer-top-left {
+  color: #fff;
+  width: 50%;
+}
+
+.item-footer-top-right {
+  width: 50%;
+}
+
+.item-footer-top-right form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-footer-top-right form input {
+  padding: 1rem;
+  width: 150%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.item-footer-top-right form button {
+  padding: 0.6rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: #28a0f6;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer hr {
+  border: 1px solid #fff;
+  width: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom img {
+  margin: 1rem;
+}
+
+.footer-bottom-left p {
+  margin: 2rem 0;
+}
+
+.footer-bottom-left {
+  width: 50%;
+  color: #fff;
+}
+
+.footer-bottom-right {
+  text-align: end;
+  width: 50%;
+  color: #fff;
+}
+
+.footer-bottom-right p {
+  margin: 2rem 0;
+}
+
+/* End Footer   */
