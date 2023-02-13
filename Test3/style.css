@@ -407,3 +407,39 @@ body {
   cursor: pointer;
 }
 /* End Testimonial Section */
+
+/* Start Press Release */
+.press-release {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 5% 13%;
+  height: auto;
+  text-align: center;
+}
+
+.press-release h1 {
+  color: #ff8b49;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.press-release h2 {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.press-release .partner {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.press-release .partner img {
+  margin: 3rem 2.2rem;
+}
+/* End Press Release */
