@@ -577,4 +577,93 @@ body {
   cursor: pointer;
 }
 
-/* End Contact Section  */
+/* End Our Product Section  */
+
+/* Service Section */
+
+.our-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: white;
+  padding: 5% 13%;
+  height: 50vh;
+}
+
+.our-product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service-title h1 {
+  color: skyblue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.our-product-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-our-product {
+  width: 20%;
+  height: auto;
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-our-product img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card-our-product .action-card {
+  font-size: 1rem;
+  color: blue;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn-act-our-product {
+  background: #ffe4d5;
+  color: #ff8b49;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+/* End Our Product Section */
+
+/* Sertification */
+.sertification {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  background-color: #e0e0e0;
+  padding: 3% 13%;
+}
+
+.sertification p {
+  width: 50%;
+}
+
+.sertification .icon-sertification {
+  width: 50%;
+}
+
+.sertification .icon-sertification img {
+  width: 100%;
+}
+/* End Sertification */
