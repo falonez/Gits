@@ -11,6 +11,7 @@ body {
   background-image: url("./img/Tim-GITS-Indonesia.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Navbar CSS  */
@@ -100,3 +101,90 @@ body {
 }
 
 /* End Header CSS  */
+
+/* Service Section */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: white;
+  padding: 5% 13%;
+  height: 100vh;
+}
+
+.services-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service-title h1 {
+  color: skyblue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.service-title p {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.services-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.card .action-card {
+  font-size: 1rem;
+  color: blue;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn-act-services {
+  background: #ffe4d5;
+  color: #ff8b49;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+/* End Service Section */
