@@ -188,3 +188,122 @@ body {
   cursor: pointer;
 }
 /* End Service Section */
+
+/* Portfolio Section  */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: white;
+  padding: 5% 13%;
+  height: auto;
+}
+
+.portfolio-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portfolio-title h1 {
+  color: #ff8b49;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.portfolio-title p {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-act-portfolio {
+  background: rgb(190, 237, 255);
+  color: rgb(22, 180, 243);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.card-portfolio {
+  width: 48%;
+  height: auto;
+  background-color: white;
+  padding: 0;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-portfolio img {
+  width: 100%;
+  height: 12rem;
+  margin-bottom: 1rem;
+}
+
+.card-portfolio h1 {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-portfolio p {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.content-card-portfolio {
+  padding: 1.5rem;
+}
+/* End Portfolio Section  */
+
+/* Promotion Section */
+.promotion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #28a0f6;
+  padding: 5% 13%;
+  height: auto;
+}
+
+.content .title {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.list-promotion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content .item-promotion {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.video-promotion iframe {
+  width: 30vw;
+}
+/* End Promotion Section */
